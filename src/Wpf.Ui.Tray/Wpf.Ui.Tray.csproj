@@ -30,15 +30,14 @@
     <PackageReference Include="System.ValueTuple" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Wpf.Ui\Wpf.Ui.csproj" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="PolySharp">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>build; analyzers</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="WPF-UI" />
+    <PackageReference Include="WPF-UI.DependencyInjection" />
     <PackageReference Include="WpfAnalyzers">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
